@@ -1,0 +1,13 @@
+front-end-template
+virtualenv:
+    -create
+    -activate .\Scripts\activate
+    -pip install
+    -deactivate
+    
+upload-project-in-github
+
+url: path
+views: logic
+models: database
+template: front-end
